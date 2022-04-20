@@ -1,0 +1,22 @@
+.NewBlogForm{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.form-label{
+    font-weight: 600;
+    min-width: 20%;
+    border-radius: 8px !important;
+}
+.form-control:focus {
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+}
+.form-control{
+    width: 75%;
+}
+
+.btn-primary {
+    width: 40%;
+}
